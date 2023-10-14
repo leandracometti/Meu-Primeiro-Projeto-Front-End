@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiane Oliveira - Lash Desiner</title>
+   
+    <meta name="description" content="Lash desinger recém formada, extensão de cílios">
+    <meta name="keywords" content="Lash desinger, cílios, beleza, auto cuidado">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="author" content="Leandra Cometti">
+
+     <!--CSS-->
+     <link rel="stylesheet" href="style.css">
+
+     <!--ícone da página-->
+     <link rel="icon" href="img/icon.png">
+
+     <!--icons-->
+     <script src="https://kit.fontawesome.com/fce5881e66.js" crossorigin="anonymous"></script>
+
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito+Sans:wght@300&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+ 
+
+<!--cabeçalho-->
+    <header id="cabecalho" class="cabecalho">
+        <a href="index-home.html">
+            <h1 class="logo">Raiane Oliveira</h1>
+        </a>
+
+        <button class="btn-menu">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+            <nav class="menu">
+                <button class="btn-close"> <i class="fa-solid fa-xmark"></i> </button>
+                <ul>
+                    <li> <a href="index-home.html" target="_self" class="on">home</a> </li>
+                    <li> <a href="index-quemsoueu.html" target="_self">quem sou eu</a> </li>
+                    <li> <a href="index-servicos-contato.html">serviços e contato</a> </li>
+                </ul>
+            </nav>
+    </header>
+    
+
+<!--banner-->
+    <div class="banner">
+        <div class="title">
+            <h1>Transformando sua autoestima através do olhar!</h1>
+        </div>
+    </div>
+
+
+<!--principal-->
+    <main class="apresentacao">
+
+        <article class="box">
+            <a href="quemsoueu.html"> <img src="img/foto-certificado.png" alt="Raiane Oliveira"> </a>
+            
+            <div class="text">
+                <h3>Olá! Meu nome é <span>Raiane Oliveira</span>.</h3>
+                <p>Bem-vinda ao meu website!
+                Sou extensionista de cílios recém formada e convido você a conhecer o meu trabalho!</p>
+            </div>
+        </article>
+
+        <article class="box">
+            <a href="index-servicos-contato.html"> <img class="img-cilios" src="img/cilios.jpg"> </a>
+            
+            <div class="text">
+                <h3>Extensão de cílios</h3>
+                <p>É um procedimento estético que realça os fios e dá volume ao seu olhar! </p>
+            </div>
+        </article>
+    </main>
+
+
+<!--você sabia-->
+    <article class="vocesabia">
+        <div class="container-vocesabia">
+            <div class="texto-vocesabia">
+            <h3>Você sabia que</h3>
+            <h4>fazer os cílios...</h4>
+                <ul>
+                    <li>Melhora o humor</li>
+                    <li>Melhora a autoestima</li>
+                    <li>Te deixa ainda mais linda!</li>
+                </ul>
+            </div>
+         </div>
+    </article>
+    
+
+
+<!--link de voltar ao início-->
+    <a id="link-topo" href="#cabecalho" <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+
+<!--rodapé-->
+    <footer class="rodape">
+        <div class="social">
+            <a class="instagram" href="https://www.instagram.com/raianeoliveiralash_/" target="_blank"> <i class="fa-brands fa-square-instagram"></i> </a>
+
+            <a class="whats" href="https://api.whatsapp.com/send/?phone=5511942547527&text&type=phone_number&app_absent=0" target="_blank"> <i class="fa-brands fa-square-whatsapp"></i> </a>
+        </div>
+
+        <div class="copyright">
+            <div class="img-footer"><img src="img/logosf.png"></div>
+
+            <div class="c-footer">Copyright © 2023 Raiane Oliveira - Lash Desinger. <br> Todos os direitos reservados.</div>
+        </div>
+    </footer>
+
+<body>
+    
+
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function(){
+           $(".menu").show(); 
+        });
+        $(".btn-close").click(function(){
+           $(".menu").hide(); 
+        });
+       
+    </script>
+</body>
+</html>

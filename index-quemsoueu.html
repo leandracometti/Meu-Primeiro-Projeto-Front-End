@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiane Oliveira - Quem Sou Eu</title>
+   
+    <meta name="description" content="Lash desinger recém formada, extensão de cílios">
+    <meta name="keywords" content="Lash desinger, cílios, beleza, auto cuidado">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="author" content="Leandra Cometti">
+
+     <!--CSS-->
+     <link rel="stylesheet" href="style.css">
+
+     <!--ícone da página-->
+     <link rel="icon" href="img/icon.png">
+
+     <!--icons-->
+     <script src="https://kit.fontawesome.com/fce5881e66.js" crossorigin="anonymous"></script>
+
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito+Sans:wght@300&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+ 
+
+<!--cabeçalho-->
+    <header id="cabecalho" class="cabecalho">
+        <a href="index-home.html">
+            <h1 class="logo">Raiane Oliveira</h1>
+        </a>
+
+        <button class="btn-menu">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+            <nav class="menu">
+                <button class="btn-close"> <i class="fa-solid fa-xmark"></i> </button>
+                <ul>
+                    <li> <a href="index-home.html">home</a> </li>
+                    <li> <a href="index-quemsoueu.html" class="on">quem sou eu</a> </li>
+                    <li> <a href="index-servicos-contato.html">serviços e contato</a> </li>
+                </ul>
+            </nav>
+    </header>
+
+
+<!--principal-->
+<br>
+<h2 class="titulo">''</h2>
+    <main class="raiane">
+
+        <article class="principal sobre">
+            <img src="img/foto-quemsoueu.png">
+
+            <div class="text-sobre">
+                <h3>Sobre mim</h3>
+                <p>Me chamo <span>Raiane Oliveira</span>, tenho 21 anos e moro em Bragança-Paulista (SP).<br>
+                Sempre fui apaixonada por toda a <span>área de estética</span>, e em maio de 2023 decidi investir nesta carreira, onde sigo aprendendo muito e estou amando cada vez mais essa profissão! 
+                </p>
+            </div>
+        </article>
+
+        <article class="principal curso">
+            <div class="img-curso">
+                <img src="img/curso.jpg">
+            </div>
+
+            <div class="text-sobre">
+                <p>Fazer o curso de extensão de cílios na <a href="https://www.instagram.com/brunaoliveracademy/" target="_blank">Bru Lashes</a>  foi uma experiência incrível! Tive um dia de aula <span>teórica</span> e o outro de aula <span>prática</span>. Aprendi desde a <span>anatomia do cílios</span>, <span>colagem</span> na cliente, <span>divulgação nas redes sociais</span>, até a parte das finanças.<br>
+                Foram 2 dias de muita dedicação e aprendizado, e me apaixonei por cada detalhe!</p>
+   
+            </div>
+        </article>
+    </main>
+
+
+       <!--voltar ao inicio-->
+       <a id="link-topo" href="#cabecalho"<button id="link-topo"> <i class="fa-solid fa-arrow-up"></i> </button>
+       </a>
+   
+       <!--rodapé-->
+       <footer class="rodape">
+           <div class="social">
+               <a class="instagram" href="https://www.instagram.com/raianeoliveiralash_/" target="_blank"> <i class="fa-brands fa-square-instagram"></i> </a>
+   
+               <a class="whats" href="https://api.whatsapp.com/send/?phone=5511942547527&text&type=phone_number&app_absent=0" target="_blank"> <i class="fa-brands fa-square-whatsapp"></i> </a>
+           </div>
+   
+           <div class="copyright">
+               <div class="img-footer"><img src="img/logosf.png"></div>
+   
+               <div class="c-footer">Copyright © 2023 Raiane Oliveira - Lash Desinger. <br> Todos os direitos reservados.</div>
+           </div>
+       </footer>
+   
+   <body>
+       
+   
+   
+       <!--JQuery-->
+       <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+       <script>
+           $(".btn-menu").click(function(){
+              $(".menu").show(); 
+           });
+           $(".btn-close").click(function(){
+              $(".menu").hide(); 
+           });
+          
+       </script>
+   </body>
+   </html>
